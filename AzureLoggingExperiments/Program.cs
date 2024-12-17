@@ -10,7 +10,7 @@ builder.Services.AddLogging(loggingBuilder =>
 {
     loggingBuilder.AddConsole();
     loggingBuilder.AddDebug();
-    loggingBuilder.AddAzureWebAppDiagnostics();
+    //loggingBuilder.AddAzureWebAppDiagnostics();
 });
 
 var app = builder.Build();
